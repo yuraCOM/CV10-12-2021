@@ -1,9 +1,9 @@
 :root {
-  --bgmain: #5CDB94;
-  --orangColor: #FF652F;
+  --bgmain: #5cdb94;
+  --orangColor: #ff652f;
 
-  --ffamily: 'Open Sans', sans-serif;
-  --fontColor: #E80042;
+  --ffamily: "Open Sans", sans-serif;
+  --fontColor: #e80042;
   --fontColorBroun: #4a3619;
 
   --fcolorH: #0e325c;
@@ -15,7 +15,7 @@
 }
 
 body {
-  margin:auto;
+  margin: auto;
   max-width: 1240px;
   font-family: var(--ffamily);
   font-size: var(--fsize18px);
@@ -24,12 +24,15 @@ body {
   background-repeat: no-repeat;
 }
 
-
-h1, h2, h3, h4, h5{
+h1,
+h2,
+h3,
+h4,
+h5 {
   color: var(--fcolorH);
 }
 
-p{
+p {
   color: var(--fontColorBroun);
 }
 
@@ -37,12 +40,12 @@ p{
   display: none;
 }
 
-.page-header{
+.page-header {
   margin: auto;
   padding: 20px 0;
   /*border-bottom: 5px solid var(--orangColor);*/
 }
-.container{
+.container {
   margin: 0 50px;
   padding: 15px 0;
   display: flex;
@@ -64,40 +67,40 @@ p{
 /*  margin-top: 15px;*/
 /*}*/
 
-.img-div{
+.img-div {
   display: flex;
 }
-.header-container{
+.header-container {
   border-bottom: 5px solid var(--orangColor);
 }
-.header-container .user-foto{
+.header-container .user-foto {
   width: 300px;
   border-radius: 35px;
-  border: 5px solid #FF652F;
+  border: 5px solid #ff652f;
 }
-.header-container h1{
+.header-container h1 {
   margin-bottom: 20px;
   padding-bottom: 7px;
   font-size: var(--fsize35px);
-  border-bottom: 5px solid #FF652F;
+  border-bottom: 5px solid #ff652f;
 }
-.header-container h2{
+.header-container h2 {
   font-size: var(--fsize25px);
 }
-.header-container h5{
+.header-container h5 {
   font-size: var(--fsize20px);
 }
 
-.user-image{
+.user-image {
   width: 300px;
 }
 
-.user-contact{
+.user-contact {
   padding-right: 30px;
   list-style: none;
 }
 
-.position-inf{
+.position-inf {
   margin-bottom: 10px;
 }
 
@@ -106,24 +109,24 @@ p{
 /*  font-weight: 700;*/
 
 /*}*/
-.user-contact-bold{
-  color: #FF652F;
+.user-contact-bold {
+  color: #ff652f;
   padding-bottom: 10px;
 }
 
-.user-contact-inf{
-  color: #FF652F;
+.user-contact-inf {
+  color: #ff652f;
   font-weight: 900;
   padding-bottom: 10px;
 }
 
-.header-profession{
+.header-profession {
   color: #000000;
   font-weight: 700;
   text-decoration: none;
 }
 
-.header-container a{
+.header-container a {
   color: var(--fcolorH);
 }
 
@@ -149,14 +152,14 @@ p{
   background-image: url("../img/icon-telegram.svg");
   background-repeat: no-repeat;
 }
-.header-git-hub{
+.header-git-hub {
   color: #000000;
   text-decoration: none;
   padding-left: 25px;
   background-image: url("../img/icon-github.svg");
   background-repeat: no-repeat;
 }
-.header-LinkedIn{
+.header-LinkedIn {
   color: #000000;
   text-decoration: none;
   padding-left: 25px;
@@ -164,95 +167,105 @@ p{
   background-repeat: no-repeat;
 }
 
-.header-codewars{
+.header-codewars {
   color: #000000;
   text-decoration: none;
 }
 
+.div-flex {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  margin-top: 10px;
+}
 
-.about-and-skills{
+.prev-img {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+}
+
+.about-and-skills {
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 0 15px;
 }
-.about-and-skills p{
+.about-and-skills p {
   padding-left: 10px;
   text-align: justify;
 }
 
-.about-and-skills h3, .examples-and-works h3{
+.about-and-skills h3,
+.examples-and-works h3 {
   font-size: var(--fsize20px);
   font-weight: bold;
   padding-bottom: 10px;
 }
 
-
-.skills{
+.skills {
   width: 50%;
   padding: 0 15px;
 }
 
-.skills h2{
+.skills h2 {
   font-size: var(--fsize18px);
   font-weight: bold;
   padding: 5px 0;
 }
-.skills a{
+.skills a {
   padding: 0 15px;
   text-decoration: none;
   color: #e90cc2;
 }
-.skills a:hover{
+.skills a:hover {
   color: black;
   background-color: #06f5e1;
 }
 
-.about-text{
+.about-text {
   padding: 0 15px;
   width: 50%;
 }
-.italic{
+.italic {
   font-style: italic;
   color: #ff5722;
   padding-bottom: 10px;
 }
-.about-text p{
+.about-text p {
   padding-bottom: 5px;
 }
 
-.examples-and-works{
+.examples-and-works {
   padding-top: 15px;
   width: 100%;
 }
 
-
-.language-knowledge{
+.language-knowledge {
   display: flex;
   justify-content: space-evenly;
   padding-bottom: 20px;
 }
 
-pre{
+pre {
   width: 100%;
   height: 200px;
   overflow-y: scroll;
   border: 1px solid #ff5722;
 }
 
-.language-contents{
+.language-contents {
   list-style: none;
 }
 
-.page-footer{
+.page-footer {
   /*background-color: var(--orangColor);*/
   font-size: var(--fsize20px);
   font-weight: bold;
 }
 
-.footer-git{
+.footer-git {
   color: black;
-
 }
 .footer-contacts {
   background-color: var(--orangColor);
@@ -262,65 +275,63 @@ pre{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding:  15px;
-  
+  padding: 15px;
 }
-
-
 
 pre {
   text-align: left;
 }
 
-@media only screen and (min-width : 320px) and (max-width : 480px){
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     /*align-content: stretch;*/
     margin: 0 5px;
-    padding: 2px
-
+    padding: 2px;
   }
   .page-header {
     margin: auto;
     padding: 2px 0;
   }
-  .header-container img{
+  .header-container img {
     /*max-width: 220px;*/
   }
-  .header-container h1{
-    padding-top:1px;
+  .header-container h1 {
+    padding-top: 1px;
     text-align: center;
     margin-bottom: 0;
     font-size: 20px;
   }
-  .header-container h5{
+  .header-container h5 {
     font-size: 15px;
   }
-  .header-container h2{
+  .header-container h2 {
     font-size: 18px;
   }
   .user-contact {
     padding-right: 0;
     /*list-style: none;*/
   }
-  .header-container ul{
+  .header-container ul {
     text-align: center;
   }
   .about-and-skills {
     /*width: 100%;*/
     flex-direction: column;
   }
-  .skills, .about-text{
+  .skills,
+  .about-text {
     width: 95%;
     text-align: center;
   }
-  .about-and-skills p{
+  .about-and-skills p {
     padding-left: 0;
     text-align: center;
   }
-  .about-and-skills h3, .examples-and-works h3 {
+  .about-and-skills h3,
+  .examples-and-works h3 {
     font-size: var(--fsize20px);
     font-weight: bold;
     padding-bottom: 2px;
@@ -331,26 +342,30 @@ pre {
     font-weight: bold;
     padding: 1px 0;
   }
-  .skills{
+  .skills {
     border-bottom: 5px solid var(--orangColor);
   }
 
-  .about-text{
+  .skills a {
+    padding: 0 5px;
+  }
+
+  .about-text {
     padding-top: 5px;
   }
 
   .language-knowledge {
     flex-direction: column;
-    align-items: center
+    align-items: center;
   }
-  .language-knowledge{
-
+  .language-knowledge {
   }
-  .code-examples{
+  .code-examples {
     text-align: center;
     padding: 0 5px;
   }
-  .code-examples p, pre{
+  .code-examples p,
+  pre {
     font-size: 15px;
     /*text-align: center;*/
   }
@@ -360,16 +375,13 @@ pre {
   }
 }
 
-
 @media (min-width: 411px) and (max-width: 568px) {
   .user-contact {
     padding-right: 0;
   }
-
-
 }
 
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width: 768px) {
   .page-header .container {
     justify-content: space-around;
     /*align-items: flex-start;*/
@@ -377,7 +389,7 @@ pre {
   .header-container .user-foto {
     width: 250px;
   }
-  .about-and-skills p{
+  .about-and-skills p {
     font-size: 16px;
   }
   .language-knowledge {
@@ -385,20 +397,17 @@ pre {
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-  .code-examples p, pre {
+  .code-examples p,
+  pre {
     font-size: 16px;
   }
-
 }
 
-
-
 @media (min-width: 1024px) {
-
-  .header-container h1{
+  .header-container h1 {
     font-size: 20px;
   }
-  .header-container h2{
+  .header-container h2 {
     font-size: 18px;
   }
 }
