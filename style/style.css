@@ -1,5 +1,5 @@
 :root {
-  --bgmain: #5cdb94;
+  --bgmain: #9e9e9e96;
   --orangColor: #ff652f;
 
   --ffamily: "Open Sans", sans-serif;
@@ -215,8 +215,8 @@ p {
 }
 .skills a {
   padding: 0 15px;
-  text-decoration: none;
-  color: #e90cc2;
+  /* text-decoration: none; */
+  color: #070707;
 }
 .skills a:hover {
   color: black;
