@@ -45,6 +45,7 @@ p {
   padding: 20px 0;
   /*border-bottom: 5px solid var(--orangColor);*/
 }
+
 .container {
   margin: 0 50px;
   padding: 15px 0;
@@ -55,6 +56,7 @@ p {
   justify-content: space-between;
   align-items: flex-start;
 }
+
 /*.header-container{*/
 /*  padding: 0 15px;*/
 /*}*/
@@ -70,23 +72,28 @@ p {
 .img-div {
   display: flex;
 }
+
 .header-container {
   border-bottom: 5px solid var(--orangColor);
 }
+
 .header-container .user-foto {
   width: 300px;
   border-radius: 35px;
   border: 5px solid #ff652f;
 }
+
 .header-container h1 {
   margin-bottom: 20px;
   padding-bottom: 7px;
   font-size: var(--fsize35px);
   border-bottom: 5px solid #ff652f;
 }
+
 .header-container h2 {
   font-size: var(--fsize25px);
 }
+
 .header-container h5 {
   font-size: var(--fsize20px);
 }
@@ -152,6 +159,7 @@ p {
   background-image: url("../img/icon-telegram.svg");
   background-repeat: no-repeat;
 }
+
 .header-git-hub {
   color: #000000;
   text-decoration: none;
@@ -159,6 +167,7 @@ p {
   background-image: url("../img/icon-github.svg");
   background-repeat: no-repeat;
 }
+
 .header-LinkedIn {
   color: #000000;
   text-decoration: none;
@@ -191,6 +200,7 @@ p {
   justify-content: center;
   padding: 0 15px;
 }
+
 .about-and-skills p {
   padding-left: 10px;
   text-align: justify;
@@ -213,11 +223,14 @@ p {
   font-weight: bold;
   padding: 5px 0;
 }
+
 .skills a {
   padding: 0 15px;
   /* text-decoration: none; */
   color: #070707;
+  background: #13d7f078;
 }
+
 .skills a:hover {
   color: black;
   background-color: #06f5e1;
@@ -227,11 +240,13 @@ p {
   padding: 0 15px;
   width: 50%;
 }
+
 .italic {
   font-style: italic;
   color: #ff5722;
   padding-bottom: 10px;
 }
+
 .about-text p {
   padding-bottom: 5px;
 }
@@ -267,6 +282,7 @@ pre {
 .footer-git {
   color: black;
 }
+
 .footer-contacts {
   background-color: var(--orangColor);
   list-style: none;
@@ -291,45 +307,56 @@ pre {
     margin: 0 5px;
     padding: 2px;
   }
+
   .page-header {
     margin: auto;
     padding: 2px 0;
   }
+
   .header-container img {
     /*max-width: 220px;*/
   }
+
   .header-container h1 {
     padding-top: 1px;
     text-align: center;
     margin-bottom: 0;
     font-size: 20px;
   }
+
   .header-container h5 {
     font-size: 15px;
   }
+
   .header-container h2 {
     font-size: 18px;
   }
+
   .user-contact {
     padding-right: 0;
     /*list-style: none;*/
   }
+
   .header-container ul {
     text-align: center;
   }
+
   .about-and-skills {
     /*width: 100%;*/
     flex-direction: column;
   }
+
   .skills,
   .about-text {
     width: 95%;
     text-align: center;
   }
+
   .about-and-skills p {
     padding-left: 0;
     text-align: center;
   }
+
   .about-and-skills h3,
   .examples-and-works h3 {
     font-size: var(--fsize20px);
@@ -342,6 +369,7 @@ pre {
     font-weight: bold;
     padding: 1px 0;
   }
+
   .skills {
     border-bottom: 5px solid var(--orangColor);
   }
@@ -358,17 +386,20 @@ pre {
     flex-direction: column;
     align-items: center;
   }
-  .language-knowledge {
-  }
+
+  .language-knowledge {}
+
   .code-examples {
     text-align: center;
     padding: 0 5px;
   }
+
   .code-examples p,
   pre {
     font-size: 15px;
     /*text-align: center;*/
   }
+
   .footer-contacts {
     flex-direction: column;
     font-size: 15px;
@@ -386,17 +417,21 @@ pre {
     justify-content: space-around;
     /*align-items: flex-start;*/
   }
+
   .header-container .user-foto {
     width: 250px;
   }
+
   .about-and-skills p {
     font-size: 16px;
   }
+
   .language-knowledge {
     /*padding-bottom: 20px;*/
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
+
   .code-examples p,
   pre {
     font-size: 16px;
@@ -407,6 +442,7 @@ pre {
   .header-container h1 {
     font-size: 20px;
   }
+
   .header-container h2 {
     font-size: 18px;
   }
