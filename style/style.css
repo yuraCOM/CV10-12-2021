@@ -186,6 +186,22 @@ p {
   flex-direction: column;
   border: 1px solid;
   margin-top: 10px;
+  padding: 5px;
+}
+
+.div-flex h2 {
+  margin-left: 10px;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+.div-flex a {
+  margin-left: 10px;
+  padding: 5px 0;
+}
+
+.about-and-skills>.div-flex p {
+  font-size: 10px;
 }
 
 .prev-img {
@@ -224,11 +240,12 @@ p {
   padding: 5px 0;
 }
 
-.skills a {
-  padding: 0 15px;
-  /* text-decoration: none; */
-  color: #070707;
-  background: #13d7f078;
+.skills a,
+{
+padding: 0 15px;
+/* text-decoration: none; */
+color: #070707;
+background: #13d7f078;
 }
 
 .skills a:hover {
@@ -296,6 +313,13 @@ pre {
 
 pre {
   text-align: left;
+}
+
+.code-examples {
+  margin: 0 50px;
+  text-align: center;
+  padding: 0 5px;
+
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
@@ -390,8 +414,10 @@ pre {
   .language-knowledge {}
 
   .code-examples {
+    /* margin: 0 50px; */
     text-align: center;
     padding: 0 5px;
+
   }
 
   .code-examples p,
